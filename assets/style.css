@@ -1,0 +1,25 @@
+.seccion1{
+    background-color: rgb(153, 68, 94);
+   font-family: 'Indie Flower',
+   cursive;
+   text-align: left;
+
+}
+
+.seccion1__bloque1{
+    text-align: right;
+}
+
+.seccion1__bloque2 {
+    text-align: right;
+    padding-left: 1rem;
+}
+
+.seccion2 {
+    background-color: rgb(5, 151, 144);
+    font-family: 'Indie Flower',
+        cursive;
+    text-align: left;
+
+    
+}

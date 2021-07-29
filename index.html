@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Notas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container w-60">
+ <div class="seccion1 mt-4 pb-4 pl-5">
+        <h5 class="pt-3">Datos del estudiante</h5>
+        <div class="row">
+            <div id="datos" class="seccion1__bloque1" class="col-6">
+                <div>
+                    <label for="">Nombre</label>
+                    <input id="nombre" type="text">
+                </div>
+                <div>
+                    <label for="">Apellido</label>
+                    <input id="apellido" type="text">
+                </div>
+                <button id="agregarDatos" class="btn btn-warning">agregar datos</button>
+            </div>
+            <div id="datos" class="seccion1__bloque2" class="col-6">
+                <div>
+                    <label for="">Materia</label>
+                    <input id="nombreMateria" type="text">
+                </div>
+                <div>
+                    <label for="">Nota</label>
+                    <input id="nota" type="text">
+                </div>
+                <button id="agregarNotas" class="btn btn-primary">agregar Materia</button>
+            </div>
+        </div>
+    </div>
+    <div class="seccion2 container mt-4 pb-4">
+        <h5 class="pt-3">Calificaciones (agrega + de 1 materia)</h5>
+        <div>
+            <ul id="detalles seccion2__bloque1" class="pt-1">
+                <li>Nombre del estudiante : <strong id="name"></strong></li>
+                <li>Apellido del estudiante : <strong id="lastName"></strong></li>
+            </ul>
+        </div>
+        <div class="pb-5">
+            <table class="table text-left w-50">
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Notas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+   
+
+
+
+    <script src="notas.js"></script>
+</body>
+
+</html>
